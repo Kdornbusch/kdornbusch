@@ -1,0 +1,84 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(77, 92, 69);
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color:rgb(77, 92, 69);
+    z-index: 1;
+  }
+  
+  header .content {
+    display: flex;
+    padding: 1.875rem;
+    justify-content: space-between;
+  }
+  .nav
+  {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .nav li {
+    display: inline-block;
+  }
+  .nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1.275rem;
+    vertical-align: bottom;
+    flex: 1;
+  }
+
+  .banner {
+    height: fit-content;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding-top: 5rem;
+  }
+
+
+#mission {
+    border-top: 2px solid rgb(77, 92, 69);
+    border-bottom:2px solid rgb(77, 92, 69);
+    height: 25%;
+ }
+
+ h1{
+    font-size: 5rem;
+  }
+  #mission h2 {
+    font-size: 3rem;
+    font-family: cursive;
+  }
+
+#mission p{
+    font-size: 1.5rem;
+}
+
+  .b-boxes{
+    display:flex;
+    justify-content: space-around;
+    align-content:center;
+    flex-wrap: wrap;
+  }
+  .b-imgs{
+    align-items:center;
+  }
+
+  .b {
+    height: 10rem;
+    width:10rem;
+    border: 4 px solid rgb(77, 92, 69);
+  }
+
+  .small{
+    font-size: 0.75rem;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
